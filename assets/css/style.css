@@ -5,32 +5,39 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Montserrat, sans-serif;
+    background-color: lightgray;
 }
 
 .container {
     text-align: center;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 15px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5vw;
 }
 
 .scoreboard {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
 .game {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
 .player-choice,
 .computer-choice {
-    flex: 1;
+    flex: 1 0 30%;
+    max-width: 300px;
 }
 
 .choices {
@@ -38,34 +45,35 @@ h1 {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 70px;
+    flex-wrap: wrap;
     
 }
 
 button {
-    margin: 0 10px;
+    margin: 0 10px 10px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 90%;
+    border-radius: 5%;
 }
-
-
 
 img {
-    max-width: 500px;
-    max-height: 300px;
-}
-
-.player-choice {
-    margin-right: 50px;
-}
-
-.computer-choice {
-    margin-left: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
 .player-score {
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: 40px;
+    order: 2;
 }
 
 .computer-score {
-    margin-right: 150px;
+    margin-right: auto;
+    margin-left: 40px;
+    order: 3;
 }
+
+.prompt{
+    font-size: 150%;
+}
+
