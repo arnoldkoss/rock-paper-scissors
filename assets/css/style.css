@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.player-choice,
+.computer-choice {
+    flex: 1;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+
+img {
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.player-choice {
+    margin-right: 50px;
+}
+
+.computer-choice {
+    margin-left: 50px;
+}
+
+.player-score {
+    margin-left: 150px;
+}
+
+.computer-score {
+    margin-right: 150px;
+}
