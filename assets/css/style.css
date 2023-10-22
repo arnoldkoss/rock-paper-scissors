@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Montserrat, sans-serif;
-    background-color: lightgray;
+    background-color: darkgray;
 }
 
 .container {
@@ -55,10 +55,19 @@ button {
     font-size: 90%;
     border-radius: 5%;
 }
+button:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
 
 img {
     max-width: 100%;
     height: auto;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
 
 .player-score {
