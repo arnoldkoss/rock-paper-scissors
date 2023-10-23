@@ -8,54 +8,55 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             let playerChoice = this.getAttribute("data-choice");
             console.log("Player's choice is: " + playerChoice);
+            runGame(playerChoice);
         });
     }
 });
 
-
-
-
-
-function runGame(){
-    let num = Math.floor(Math.random() *3)+1;
+function runGame(playerChoice) {
+    let num = Math.floor(Math.random() * 3) + 1;
     let computerChoice;
-    if(num === 1){
-        computerChoice = "Rock";
-    } else if(num === 2){
-        computerChoice = "Paper";
-    } else(num === 3){
-        computerChoice = "Scissors"
+    if (num === 1) {
+        computerChoice = "rock";
+    } else if (num === 2) {
+        computerChoice = "paper";
+    } else {
+        computerChoice = "scissors";
     }
-    console.log("computers choise is: "+ computerChoice)
+    console.log("Computer's choice is: " + computerChoice);
+    // Update player's image
+    document.querySelector(".player-choice img").setAttribute("src", `assets/images/${playerChoice}.png`);
+
+    // Update computer's image
+    document.querySelector(".computer-choice img").setAttribute("src", `assets/images/${computerChoice}.png`);
+    checkAnswer(playerChoice, computerChoice);
 }
 
-function checkAnswer(playerChoice, computerChoice){
-     if(playerChoice === computerChoice){
-         return "It's a tie!";
-     } else if (
-         (playerChoice === "rock" && computerChoice === "scissors") ||
-         (playerChoice === "paper" && computerChoice === "rock") ||
-         (playerChoice === "scissors" && computerChoice === "paper")
-     ){
+function checkAnswer(playerChoice, computerChoice) {
+    if (playerChoice === computerChoice) {
+        console.log("It's a tie!");
+    } else if (
+        (playerChoice === "rock" && computerChoice === "scissors") ||
+        (playerChoice === "paper" && computerChoice === "rock") ||
+        (playerChoice === "scissors" && computerChoice === "paper")
+    ) {
         incrementPlayerScore();
-        return "Player wins!";
-     }else{
+        console.log("Player wins!");
+    } else {
         incrementComputerScore();
-        return "Computer wins!"
-     }
-     
+        console.log("Computer wins!");
+    }
 }
 
-  let playerScore = 0;
-  let computerScore = 0;
- 
-function incrementPlayerScore(){
+let playerScore = 0;
+let computerScore = 0;
+
+function incrementPlayerScore() {
     playerScore++;
-    document.getElementById("player-score").textContent = "Player Score: "+ playerScore;
+    document.getElementById("player-score").textContent = "Player Score: " + playerScore;
 }
 
-function incrementComputerScore(){
+function incrementComputerScore() {
     computerScore++;
-    document.getElementById("computer-score").textContent = "computerScore: "+ computerScore;
-
+    document.getElementById("computer-score").textContent = "Computer Score: " + computerScore;
 }
