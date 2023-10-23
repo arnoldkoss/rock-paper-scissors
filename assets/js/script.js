@@ -34,18 +34,19 @@ function runGame(playerChoice) {
 
 function checkAnswer(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
-        console.log("It's a tie!");
+        result = "It's a tie!";
     } else if (
         (playerChoice === "rock" && computerChoice === "scissors") ||
         (playerChoice === "paper" && computerChoice === "rock") ||
         (playerChoice === "scissors" && computerChoice === "paper")
     ) {
         incrementPlayerScore();
-        console.log("Player wins!");
+        result = "Player wins!";
     } else {
         incrementComputerScore();
-        console.log("Computer wins!");
+        result = "Computer wins!";
     }
+    document.getElementById("result").textContent = result;
 }
 
 let playerScore = 0;
