@@ -33,6 +33,7 @@ function runGame(playerChoice) {
 }
 
 function checkAnswer(playerChoice, computerChoice) {
+    
     if (playerChoice === computerChoice) {
         result = "It's a tie!";
     } else if (

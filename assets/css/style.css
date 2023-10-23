@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif !important;
     background-color: darkgray;
 }
 
@@ -24,7 +24,11 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+    
+    
 }
+
+
 
 .game {
     display: flex;
@@ -66,17 +70,26 @@ img {
     height: auto;
 }
 
+#result{
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+}
+
 
 .player-score {
     margin-left: auto;
     margin-right: 40px;
     order: 2;
+    
 }
+
+
 
 .computer-score {
     margin-right: auto;
     margin-left: 40px;
     order: 3;
+    
 }
 
 .prompt{
