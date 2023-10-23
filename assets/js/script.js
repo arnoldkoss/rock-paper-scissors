@@ -29,8 +29,21 @@ function runGame(){
     console.log("computers choise is: "+ computerChoice)
 }
 
-function checkAnswer(){
-
+function checkAnswer(playerChoice, computerChoice){
+     if(playerChoice === computerChoice){
+         return "It's a tie!";
+     } else if (
+         (playerChoice === "rock" && computerChoice === "scissors") ||
+         (playerChoice === "paper" && computerChoice === "rock") ||
+         (playerChoice === "scissors" && computerChoice === "paper")
+     ){
+        incrementPlayerScore();
+        return "Player wins!";
+     }else{
+        incrementComputerScore();
+        return "Computer wins!"
+     }
+     
 }
 
 function incrementPlayerScore(){
