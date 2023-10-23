@@ -46,10 +46,16 @@ function checkAnswer(playerChoice, computerChoice){
      
 }
 
+  let playerScore = 0;
+  let computerScore = 0;
+ 
 function incrementPlayerScore(){
-
+    playerScore++;
+    document.getElementById("player-score").textContent = "Player Score: "+ playerScore;
 }
 
 function incrementComputerScore(){
+    computerScore++;
+    document.getElementById("computer-score").textContent = "computerScore: "+ computerScore;
 
 }
