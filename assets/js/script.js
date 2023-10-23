@@ -6,19 +6,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for (let button of buttons) {
         button.addEventListener("click", function () {
-            if (this.getAttribute("data-choice") === "rock") {
-                alert("you clicked rock");
-            } else {
-                let buttonChoice = this.getAttribute("data-choice");
-                alert(`You clicked ${buttonChoice}`);
-            }
+            let playerChoice = this.getAttribute("data-choice");
+            console.log("Player's choice is: " + playerChoice);
         });
     }
 });
 
 
-function runGame(){
 
+
+
+function runGame(){
+    let num = Math.floor(Math.random() *3)+1;
+    let computerChoice;
+    if(num === 1){
+        computerChoice = "Rock";
+    } else if(num === 2){
+        computerChoice = "Paper";
+    } else(num === 3){
+        computerChoice = "Scissors"
+    }
+    console.log("computers choise is: "+ computerChoice)
 }
 
 function checkAnswer(){
