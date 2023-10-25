@@ -1,3 +1,4 @@
+/* CSS styles for the body */
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +9,9 @@ body {
     background-color: darkgray;
 }
 
+/* CSS styles for the container */
 .container {
+
     text-align: center;
     max-width: 800px;
     width: 100%;
@@ -16,21 +19,24 @@ body {
     border: 2px;
 }
 
+
+/* CSS styles for the heading */
 h1 {
     font-size: 5vw;
 }
 
+/* CSS styles for the scoreboard */
 .scoreboard {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
-    
-    
+
+
 }
 
 
-
+/* CSS styles for the game section */
 .game {
     display: flex;
     flex-wrap: wrap;
@@ -39,65 +45,77 @@ h1 {
     margin-top: 20px;
 }
 
+/* CSS styles for player and computer choices */
 .player-choice,
 .computer-choice {
     flex: 1 0 30%;
     max-width: 300px;
 }
 
+/* CSS styles for the choices section */
 .choices {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 70px;
     flex-wrap: wrap;
-    
+
 }
 
+/* CSS styles for buttons */
 button {
     margin: 0 10px 10px;
     padding: 10px 20px;
     font-size: 90%;
     border-radius: 5%;
 }
+
+/* CSS styles for button hover effect */
 button:hover {
     background-color: lightgray;
     color: black;
     cursor: pointer;
 }
 
+
+/* CSS styles for images */
 img {
     max-width: 75%;
     height: auto;
 }
 
-#result{
+
+/* CSS styles for the result */
+#result {
     font-size: 25px;
     font-family: Montserrat, sans-serif;
 }
-#final-result{
-        font-size: 25px;
-        font-family: Montserrat, sans-serif;
-    }
+
+/* CSS styles for the final result */
+#final-result {
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+}
 
 
+/* CSS styles for the player score */
 .player-score {
     margin-left: auto;
     margin-right: 40px;
     order: 2;
-    
+
 }
 
 
-
+/* CSS styles for the computer score */
 .computer-score {
     margin-right: auto;
     margin-left: 40px;
     order: 3;
-    
+
 }
 
-.prompt{
+/* CSS styles for the prompt */
+.prompt {
     font-size: 150%;
 }
-
