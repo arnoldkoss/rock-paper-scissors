@@ -33,7 +33,7 @@ function runGame(playerChoice) {
 }
 
 function checkAnswer(playerChoice, computerChoice) {
-    
+
     if (playerChoice === computerChoice) {
         result = "It's a tie!";
     } else if (
@@ -54,17 +54,20 @@ function checkAnswer(playerChoice, computerChoice) {
 
 let playerScore = 0;
 let computerScore = 0;
+const winningScore = 5;  // Set the winning score here
 
 function incrementPlayerScore() {
     playerScore++;
     document.getElementById("player-score").textContent = "Player Score: " + playerScore;
     updateScoreColor();
+    checkWinner();
 }
 
 function incrementComputerScore() {
     computerScore++;
     document.getElementById("computer-score").textContent = "Computer Score: " + computerScore;
     updateScoreColor();
+    checkWinner();
 }
 
 function updateScoreColor() {
@@ -85,15 +88,34 @@ function updateScoreColor() {
 
 
 
+function checkWinner() {
+    if (playerScore === winningScore) {
+        // Display player wins
+        displayResult("Player wins the game!");
+        
+    } else if (computerScore === winningScore) {
+        // Display computer wins
+        displayResult("Computer wins the game!");
+        
+    }
 
 
+}
 
+function displayResult(result) {
+    const resultElement = document.getElementById("final-result");
+    resultElement.textContent = result;
+    setTimeout(() => {
+        resultElement.textContent = "";
+    }, 2000);
+    resetGame();
+    
+}
 
-
-
-
-
-
-
-
-
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    document.getElementById("player-score").textContent = "Player Score: 0";
+    document.getElementById("computer-score").textContent = "Computer Score: 0";
+    updateScoreColor();
+}
