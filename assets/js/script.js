@@ -55,10 +55,55 @@ let computerScore = 0;
 
 function incrementPlayerScore() {
     playerScore++;
-    document.getElementById("player-score").textContent = "Player Score: " + playerScore;
+    let playerScoreElement = document.getElementById("player-score");
+    let computerScoreElement = document.getElementById("computer-score");
+    playerScoreElement.textContent = "Player Score: " + playerScore;
+    if (playerScore > computerScore) {
+        playerScoreElement.style.color = "green";
+        computerScoreElement.style.color = "red";
+    } else {
+        playerScoreElement.style.color = "black";
+        computerScoreElement.style.color = "black";
+    }
 }
 
 function incrementComputerScore() {
     computerScore++;
-    document.getElementById("computer-score").textContent = "Computer Score: " + computerScore;
+    let playerScoreElement = document.getElementById("player-score");
+    let computerScoreElement = document.getElementById("computer-score");
+    computerScoreElement.textContent = "Computer Score: " + computerScore;
+    if (computerScore > playerScore) {
+        computerScoreElement.style.color = "green";
+        playerScoreElement.style.color = "red";
+    } else {
+        playerScoreElement.style.color = "black";
+        computerScoreElement.style.color = "black";
+    }
 }
+
+
+
+
+
+
+
+
+function incrementComputerScore() {
+    computerScore++;
+    let playerScoreElement = document.getElementById("player-score");
+    let computerScoreElement = document.getElementById("computer-score");
+    computerScoreElement.textContent = "Computer Score: " + computerScore;
+    if (computerScore > playerScore) {
+        computerScoreElement.style.color = "green";
+        playerScoreElement.style.color = "red";
+    } else {
+        playerScoreElement.style.color = "black";
+        computerScoreElement.style.color = "black";
+    }
+}
+
+
+
+
+
+
