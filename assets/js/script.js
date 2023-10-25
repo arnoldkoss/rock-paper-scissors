@@ -48,6 +48,7 @@ function checkAnswer(playerChoice, computerChoice) {
         result = "Computer wins!";
     }
     document.getElementById("result").textContent = result;
+    
 }
 
 
@@ -98,8 +99,13 @@ function checkWinner() {
         displayResult("Computer wins the game!");
         
     }
-
-
+    removeWinnerText();
+}
+function removeWinnerText() {
+    const resultElement = document.getElementById("result");
+    setTimeout(() => {
+        resultElement.textContent = "";
+    }, 3000); // Adjust the time (in milliseconds) as needed
 }
 
 function displayResult(result) {
@@ -107,7 +113,7 @@ function displayResult(result) {
     resultElement.textContent = result;
     setTimeout(() => {
         resultElement.textContent = "";
-    }, 2000);
+    }, 4000);
     resetGame();
     
 }
