@@ -84,6 +84,14 @@ img {
     height: auto;
 }
 
+/* CSS styles for images */
+.player-choice img,
+.computer-choice img {
+    width: 200px;
+    height: 200px;
+    
+}
+
 
 /* CSS styles for the result */
 #result {
