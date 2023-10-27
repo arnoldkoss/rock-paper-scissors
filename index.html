@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Meta tags for character set and rendering -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,71 +9,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Oleo+Script&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Oleo+Script&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Title of the page -->
     <title>Rock Paper Scissors</title>
-</head>
+  </head>
 
-<body>
-
-     <!-- Container for the game content -->
+  <body>
+    <!-- Container for the game content -->
     <div class="container">
-        
-        <!-- Heading for the game title -->
-        
-        <h1>Rock Paper Scissors </h1>
+      <!-- Heading for the game title -->
 
-        
-        
+      <h1>Rock Paper Scissors</h1>
 
-        <!-- Div elements for displaying the results of the game -->
-        <div id="result"></div>
-        <div id="final-result"></div>
+      <!-- Div elements for displaying the results of the game -->
+      <div id="result"></div>
+      <div id="final-result"></div>
 
-        <!-- Div for the scoreboard displaying player and computer scores -->
-        <div class="scoreboard">
-            <div>
-                <h3 id="player-score">Player: 0</h3>
-            </div>
-            <div>
-                <h3 id="computer-score">Computer: 0</h3>
-            </div>
+      <!-- Div for the scoreboard displaying player and computer scores -->
+      <div class="scoreboard">
+        <div>
+          <h3 id="player-score">Player: 0</h3>
         </div>
-
-        <!-- Div for the game elements -->
-        <div class="game">
-            <!-- Div for the player's choice image -->
-            <div class="player-choice">
-                <img src="assets/images/rock-paper-scissors.png" alt="Rock Paper Scissors" />
-            </div>
-            <!-- Div for the computer's choice image -->
-            <div class="computer-choice">
-                <img src="assets/images/rock-paper-scissors.png" alt="Rock Paper Scissors" />
-            </div>
+        <div>
+          <h3 id="computer-score">Computer: 0</h3>
         </div>
+      </div>
 
-        <!-- Div for the game prompt -->
-        <div class="prompt">Make your choice</div>
-
-        <!-- Div for the game choices -->
-        <div class="choices">
-            <!-- Button for choosing 'Rock' -->
-            <button aria-label="Rock" data-choice="rock" id="rock">Rock</button>
-            <!-- Button for choosing 'Paper' -->
-            <button aria-label="Paper" data-choice="paper" id="paper">Paper</button>
-            <!-- Button for choosing 'Scissors' -->
-            <button aria-label="Scissors" data-choice="scissors" id="scissors">
-                Scissors
-            </button>
+      <!-- Div for the game elements -->
+      <div class="game">
+        <!-- Div for the player's choice image -->
+        <div class="player-choice">
+          <img
+            src="assets/images/rock-paper-scissors.png"
+            alt="Rock Paper Scissors"
+          />
         </div>
-        <h3 id="rules">Rock crushes Scissors, Scissors cut Paper, Paper covers Rock, First to 5 wins the game!</h3>
+        <!-- Div for the computer's choice image -->
+        <div class="computer-choice">
+          <img
+            src="assets/images/rock-paper-scissors.png"
+            alt="Rock Paper Scissors"
+          />
+        </div>
+      </div>
+
+      <!-- Div for the game prompt -->
+      <div class="prompt">Make your choice</div>
+
+      <!-- Div for the game choices -->
+      <div class="choices">
+        <!-- Button for choosing 'Rock' -->
+        <button aria-label="Rock" data-choice="rock" id="rock">Rock</button>
+        <!-- Button for choosing 'Paper' -->
+        <button aria-label="Paper" data-choice="paper" id="paper">Paper</button>
+        <!-- Button for choosing 'Scissors' -->
+        <button aria-label="Scissors" data-choice="scissors" id="scissors">
+          Scissors
+        </button>
+      </div>
+      <h3 id="rules">
+        Rock crushes Scissors, Scissors cut Paper, Paper covers Rock, First to 5
+        wins the game!
+      </h3>
     </div>
 
     <!-- Link to external JavaScript file -->
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
