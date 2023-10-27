@@ -1,15 +1,16 @@
 // Wait for the DOM to finish loading before running the game
+// Get the button elements and add event listeners to them
 document.addEventListener("DOMContentLoaded", function () {
-    // Get all button elements
+   
     let buttons = document.getElementsByTagName("button");
 
-    // Add event listeners to each button
+   
     for (let button of buttons) {
         button.addEventListener("click", function () {
-            // Get the player's choice and log it
+            
             let playerChoice = this.getAttribute("data-choice");
             console.log("Player's choice is: " + playerChoice);
-            // Run the game logic with the player's choice
+            
             runGame(playerChoice);
         });
     }
@@ -66,22 +67,16 @@ const winningScore = 5;  // Set the winning score here
 // Function to increment the player's score
 function incrementPlayerScore() {
     playerScore++;
-    // Update the player's score on the webpage
     document.getElementById("player-score").textContent = "Player Score: " + playerScore;
-    // Update the color of the score based on the winner
-    updateScoreColor();
-    // Check if a player has reached the winning score
+     updateScoreColor();
     checkWinner();
 }
 
 // Function to increment the computer's score
 function incrementComputerScore() {
     computerScore++;
-    // Update the computer's score on the webpage
     document.getElementById("computer-score").textContent = "Computer Score: " + computerScore;
-    // Update the color of the score based on the winner
     updateScoreColor();
-    // Check if a player has reached the winning score
     checkWinner();
 }
 
@@ -105,33 +100,33 @@ function updateScoreColor() {
 // Function to check if any player has reached the winning score
 function checkWinner() {
     if (playerScore === winningScore) {
-        // Display the final result for the player
+
         displayResult("Player wins the game!");
     } else if (computerScore === winningScore) {
-        // Display the final result for the computer
+
         displayResult("Computer wins the game!");
     }
-    // Remove the winning text after a certain time
+
     removeWinnerText();
-}
+} 
 
 // Function to remove the winning text from the webpage after a certain time
 function removeWinnerText() {
     const resultElement = document.getElementById("result");
     setTimeout(() => {
         resultElement.textContent = "";
-    }, 3000); // Adjust the time (in milliseconds) as needed
+    }, 3000); 
 }
 
 // Function to display the final result on the webpage
 function displayResult(result) {
     const resultElement = document.getElementById("final-result");
     resultElement.textContent = result;
-    // Remove the final result after a certain time
+    
     setTimeout(() => {
         resultElement.textContent = "";
     }, 4000);
-    // Reset the game after displaying the final result
+    
     resetGame();
 }
 
@@ -143,6 +138,8 @@ function resetGame() {
     // Update the scores on the webpage
     document.getElementById("player-score").textContent = "Player Score: 0";
     document.getElementById("computer-score").textContent = "Computer Score: 0";
-    // Update the color of the scores
+    
     updateScoreColor();
 }
+
+
