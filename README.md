@@ -2,7 +2,19 @@
 
 This Rock Paper Scissors game is a classic hand game brought to life in a digital format. The game allows users to play against a computer, testing their luck and strategy in an interactive way. With a simple and intuitive interface, players can enjoy the timeless fun of Rock Paper Scissors directly from their web browser.
 
-![responsive image](documentation/amIResponsive.png)
+![responsive image](documentation/responsive.png)
+
+- [Rock Paper Scissors Game](#rock-paper-scissors-game)
+  - [User Storyes](#user-storyes)
+  - [Design](#design)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Further Testing](#further-testing)
+  - [Manual Testing](#manual-testing)
+  - [Deployment](#deployment)
 
 ## User Storyes
 
@@ -69,8 +81,6 @@ I used the W3C Markup Validator, W3C CSS Validator and the JSHint to ensure ther
 
 ![JsHint validator screenshot]()
 
-## Testing
-
 I Used Lighthouse to check my app's speed, best practices and accessibility
 
 ## Further Testing
@@ -93,3 +103,12 @@ I Used Lighthouse to check my app's speed, best practices and accessibility
 | Winning Condition - Computer wins | Computer reaches a score of 5 points before the user. | 'Computer wins the game!' message is displayed.                                     | 'Computer wins the game!' message is displayed.                                     | Pass      |
 | Score Display - Player leads      | Player's score is higher than the computer's score.   | Player's score is displayed in green, and the computer's score is displayed in red. | Player's score is displayed in green, and the computer's score is displayed in red. | Pass      |
 | Score Display - Computer leads    | Computer's score is higher than the player's score.   | Computer's score is displayed in green, and the player's score is displayed in red. | Computer's score is displayed in green, and the player's score is displayed in red. | Pass      |
+
+## Deployment
+
+The live link can be found here - <https://arnoldkoss.github.io/rock-paper-scissors/>
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
