@@ -29,7 +29,12 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 ## Wireframes
 
 - Desktop landing
+
+  ![Desktop wireframe screenshot](documentation/desktopWireframe.png)
+
 - Mobile landing
+
+  ![Mobile wireframe screenshot](documentation/mobileWireframe.png)
 
 ## Features
 
@@ -49,8 +54,8 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
   - Google Fonts was used to import the 'Montserrat', font into the style.css file which is used throughout the project.
 - GitHub
   - GitHub is used to store the projects code.
-- Balsamiq
-  - Balsamiq was used to create the wireframes.
+- Wireframe.cc
+  - Wireframe.cc was used to create the wireframes.
 - Flaticon
   - Flaticon was used to download the icons used in the game as the rock, paper and scissors
 
@@ -73,3 +78,18 @@ I Used Lighthouse to check my app's speed, best practices and accessibility
 - The app was tested on Google Chrome, Mozilla Firefox and Safari browsers.
 - The app was viewed on a variety of devices such as LENOVO THINKPAD T480S, Huawei P30 Pro and iPhone 15 Pro.
 - Familly members and friends reviewed the app to point out bugs and get a feedback for user experience.
+
+## Manual Testing
+
+| Test Description                  | Description                                           | Expected Result                                                                     | Actual Result                                                                       | Pass/Fail |
+| --------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------- |
+| User selects rock                 | User selects 'rock' as their choice.                  | 'Rock' is registered as the user's choice.                                          | 'Rock' is registered as the user's choice.                                          | Pass      |
+| User selects paper                | User selects 'paper' as their choice.                 | 'Paper' is registered as the user's choice.                                         | 'Paper' is registered as the user's choice.                                         | Pass      |
+| User selects scissors             | User selects 'scissors' as their choice.              | 'Scissors' is registered as the user's choice.                                      | 'Scissors' is registered as the user's choice.                                      | Pass      |
+| Determine Winner - Player wins    | Game determines that 'rock' beats 'scissors'.         | 'Player wins!' message is displayed.                                                | 'Player wins!' message is displayed.                                                | Pass      |
+| Determine Winner - Computer wins  | Game determines that 'scissors' beats 'paper'.        | 'Computer wins' message is displayed.                                               | 'Computer wins' message is displayed.                                               | Pass      |
+| Determine Tie                     | User and computer select the same option.             | 'It's a tie' message is displayed.                                                  | 'It's a tie' message is displayed.                                                  | Pass      |
+| Winning Condition - Player wins   | User reaches a score of 5 points before the computer. | 'Player wins the game!' message is displayed.                                       | 'Player wins the game!' message is displayed.                                       | Pass      |
+| Winning Condition - Computer wins | Computer reaches a score of 5 points before the user. | 'Computer wins the game!' message is displayed.                                     | 'Computer wins the game!' message is displayed.                                     | Pass      |
+| Score Display - Player leads      | Player's score is higher than the computer's score.   | Player's score is displayed in green, and the computer's score is displayed in red. | Player's score is displayed in green, and the computer's score is displayed in red. | Pass      |
+| Score Display - Computer leads    | Computer's score is higher than the player's score.   | Computer's score is displayed in green, and the player's score is displayed in red. | Computer's score is displayed in green, and the player's score is displayed in red. | Pass      |
