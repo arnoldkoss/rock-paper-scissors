@@ -3,13 +3,16 @@
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
-    for (let button of buttons) {
+
+    function buttonLoop(button) {
         button.addEventListener("click", function () {
             let playerChoice = this.getAttribute("data-choice");
-            console.log("Player's choice is: " + playerChoice);
-
             runGame(playerChoice);
         });
+    }
+
+    for (let button of buttons) {
+        buttonLoop(button);
     }
 });
 
