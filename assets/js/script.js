@@ -28,7 +28,7 @@ function runGame(playerChoice) {
     } else {
         computerChoice = "scissors";
     }
-    console.log("Computer's choice is: " + computerChoice);
+
 
     // Update player's and computer's images
     document

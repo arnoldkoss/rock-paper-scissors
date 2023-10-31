@@ -79,9 +79,11 @@ I used the W3C Markup Validator, W3C CSS Validator and the JSHint to ensure ther
 
 ![CSS validation screenshot](documentation/css.validation.png)
 
-![JsHint validator screenshot]()
+![JsHint validator screenshot](documentation/JShint.png)
 
 I Used Lighthouse to check my app's speed, best practices and accessibility
+
+![Lighthouse screenshot](documentation/lighthouse.png)
 
 ## Further Testing
 
