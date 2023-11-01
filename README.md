@@ -7,21 +7,21 @@ This Rock Paper Scissors game is a classic hand game brought to life in a digita
 ## Contents
 
 - [Rock Paper Scissors Game](#rock-paper-scissors-game)
-- [Contents](#contents)
-- [User Storyes](#user-storyes)
-- [Design](#design)
-- [Wireframes](#wireframes)
-- [Features](#features)
-- [Future Features](#future-features)
-- [Technologies Used](#technologies-used)
-- [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-- [Testing](#testing)
-- [Further Testing](#further-testing)
-- [Manual Testing](#manual-testing)
-- [Deployment](#deployment)
-- [Local Deployment](#local-deployment)
-- [Credits](#credits)
-- [Acknowledgments](#acknowledgments)
+  - [Contents](#contents)
+  - [User Storyes](#user-storyes)
+  - [Design](#design)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+  - [Future Features](#future-features)
+  - [Technologies Used](#technologies-used)
+  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Further Testing](#further-testing)
+  - [Manual Testing](#manual-testing)
+  - [Deployment](#deployment)
+  - [Local Deployment](#local-deployment)
+  - [Credits](#credits)
+  - [Acknowledgments](#acknowledgments)
 
 ## User Storyes
 
@@ -38,7 +38,7 @@ The color scheme of this project is designed to provide a visually appealing and
 
 **Body Background:** Dark Gray is used for the background of the main content, providing a subtle and elegant contrast that is easy on the eyes.
 
-**Game Interface:** White is utilized for the game interface, ensuring a clean and minimalistic design that highlights the game elements effectively.
+**Game Interface:** Whitesmoke is utilized for the game interface, ensuring a clean and minimalistic design that highlights the game elements effectively.
 
 **Text:** Black is employed for the text, ensuring optimal readability and clarity against the white background, creating a seamless and user-friendly experience.
 
