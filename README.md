@@ -15,6 +15,7 @@ This Rock Paper Scissors game is a classic hand game brought to life in a digita
   - [Further Testing](#further-testing)
   - [Manual Testing](#manual-testing)
   - [Deployment](#deployment)
+  - [Local Deployment](#local-deployment)
 
 ## User Storyes
 
@@ -27,7 +28,15 @@ This Rock Paper Scissors game is a classic hand game brought to life in a digita
 
 - Colour Scheme
 
-The game interface is designed using a harmonious blend of colors, with a dark gray background providing a sleek and modern backdrop. Crisp black text ensures clear and easy-to-read instructions and game updates. Additionally, green highlights signify the leading score, while red accents draw attention to the score that is lagging, creating a visually engaging and dynamic gaming experience.
+The color scheme of this project is designed to provide a visually appealing and user-friendly experience. The main components of the color scheme include:
+
+ -  **Body Background:** Dark Gray is used for the background of the main content, providing a subtle and elegant contrast that is easy on the eyes.
+
+- **Game Interface:** White is utilized for the game interface, ensuring a clean and minimalistic design that highlights the game elements effectively.
+
+- **Text:** Black is employed for the text, ensuring optimal readability and clarity against the white background, creating a seamless and user-friendly experience.
+
+The combination of these colors creates a balanced and visually engaging environment that enhances the overall usability and aesthetics of the project.
 
 - Typography
 
@@ -53,6 +62,15 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 - Responsive on all device sizes
 - Clean and user fiendly design
 - Accesible
+- Real-Time Score Tracking
+  -  Keep track of your progress with the real-time score tracking feature. 
+- Clear Game Results
+  - Receive instant feedback with clear and concise game results. Know whether you've won, lost, or tied with the computer at the end of each round, keeping the excitement alive throughout the game.
+  ![score screenshot](documentation/trackOfScore.png)  
+
+- User-Friendly Interface with Intuitive Buttons
+  -  The game features a user-friendly interface with intuitive buttons for selecting your moves. Simply click on the 'Rock', 'Paper', or 'Scissors' button to make your choice.
+  ![buttons screenshot](documentation/buttons.png) 
 
 ## Technologies Used
 
@@ -114,3 +132,10 @@ The live link can be found here - <https://arnoldkoss.github.io/rock-paper-sciss
   - In the GitHub repository, navigate to the Settings tab.
   - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+## Local Deployment
+
+- I deployed the site locally by downloading the .zip file from Github to my device.
+- I unzipped the file and tested each link page to make sure it opened correctly on my browser.
+
+![Local deployment screenshot](documentation/localDployment.png)
