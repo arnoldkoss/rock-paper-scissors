@@ -10,6 +10,7 @@ This Rock Paper Scissors game is a classic hand game brought to life in a digita
 - [Design](#design)
 - [Wireframes](#wireframes)
 - [Features](#features)
+- [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
 - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
 - [Testing](#testing)
@@ -73,6 +74,13 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 - User-Friendly Interface with Intuitive Buttons
   -  The game features a user-friendly interface with intuitive buttons for selecting your moves. Simply click on the 'Rock', 'Paper', or 'Scissors' button to make your choice.
   ![buttons screenshot](documentation/buttons.png) 
+
+## Future Features
+
+-  As for future features i would like to add are the following:
+   -  Add sound for when a game is ran.
+   - A popup instructions modal. 
+
 
 ## Technologies Used
 
