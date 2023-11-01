@@ -38,14 +38,14 @@ function runGame(playerChoice) {
         .querySelector(".computer-choice img")
         .setAttribute("src", `assets/images/${computerChoice}.png`);
 
-    // Check the game result
+    
     checkAnswer(playerChoice, computerChoice);
 }
 
 // Function to check the winner
 function checkAnswer(playerChoice, computerChoice) {
     let result;
-    // Compare the choices and determine the winner
+    
     if (playerChoice === computerChoice) {
         result = "It's a tie!";
         setTimeout(() => {
@@ -69,7 +69,8 @@ function checkAnswer(playerChoice, computerChoice) {
 // Initialize player and computer scores
 let playerScore = 0;
 let computerScore = 0;
-const winningScore = 5; // Set the winning score here
+// Winning score here
+const winningScore = 5; 
 
 // Function to increment the player's score
 function incrementPlayerScore() {
@@ -93,7 +94,7 @@ function incrementComputerScore() {
 function updateScoreColor() {
     const playerScoreElement = document.getElementById("player-score");
     const computerScoreElement = document.getElementById("computer-score");
-    // Change the color based on the comparison of scores
+    
     if (playerScore > computerScore) {
         playerScoreElement.style.color = "green";
         computerScoreElement.style.color = "red";
@@ -129,7 +130,7 @@ function removeWinnerText() {
 function displayResult(result) {
     const resultElement = document.getElementById("final-result");
     resultElement.textContent = result;
-
+// Inspired to implement while browsing the internet
     setTimeout(() => {
         resultElement.textContent = "";
     }, 4000);
@@ -139,10 +140,10 @@ function displayResult(result) {
 
 // Function to reset the game
 function resetGame() {
-    // Reset the scores to 0
+    
     playerScore = 0;
     computerScore = 0;
-    // Update the scores on the webpage
+    
     document.getElementById("player-score").textContent = "Player Score: 0";
     document.getElementById("computer-score").textContent = "Computer Score: 0";
 

@@ -3,19 +3,22 @@
 This Rock Paper Scissors game is a classic hand game brought to life in a digital format. The game allows users to play against a computer, testing their luck and strategy in an interactive way. With a simple and intuitive interface, players can enjoy the timeless fun of Rock Paper Scissors directly from their web browser.
 
 ![responsive image](documentation/responsive.png)
-
+## Contents
 - [Rock Paper Scissors Game](#rock-paper-scissors-game)
-  - [User Storyes](#user-storyes)
-  - [Design](#design)
-  - [Wireframes](#wireframes)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-  - [Testing](#testing)
-  - [Further Testing](#further-testing)
-  - [Manual Testing](#manual-testing)
-  - [Deployment](#deployment)
-  - [Local Deployment](#local-deployment)
+- [Contents](#contents)
+- [User Storyes](#user-storyes)
+- [Design](#design)
+- [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+- [Testing](#testing)
+- [Further Testing](#further-testing)
+- [Manual Testing](#manual-testing)
+- [Deployment](#deployment)
+- [Local Deployment](#local-deployment)
+- [Credits](#credits)
+- [Acknowledgments](#acknowledgments)
 
 ## User Storyes
 
@@ -30,11 +33,11 @@ This Rock Paper Scissors game is a classic hand game brought to life in a digita
 
 The color scheme of this project is designed to provide a visually appealing and user-friendly experience. The main components of the color scheme include:
 
- -  **Body Background:** Dark Gray is used for the background of the main content, providing a subtle and elegant contrast that is easy on the eyes.
+**Body Background:** Dark Gray is used for the background of the main content, providing a subtle and elegant contrast that is easy on the eyes.
 
-- **Game Interface:** White is utilized for the game interface, ensuring a clean and minimalistic design that highlights the game elements effectively.
+**Game Interface:** White is utilized for the game interface, ensuring a clean and minimalistic design that highlights the game elements effectively.
 
-- **Text:** Black is employed for the text, ensuring optimal readability and clarity against the white background, creating a seamless and user-friendly experience.
+**Text:** Black is employed for the text, ensuring optimal readability and clarity against the white background, creating a seamless and user-friendly experience.
 
 The combination of these colors creates a balanced and visually engaging environment that enhances the overall usability and aesthetics of the project.
 
@@ -60,7 +63,6 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 ## Features
 
 - Responsive on all device sizes
-- Clean and user fiendly design
 - Accesible
 - Real-Time Score Tracking
   -  Keep track of your progress with the real-time score tracking feature. 
@@ -93,7 +95,7 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 
 I used the W3C Markup Validator, W3C CSS Validator and the JSHint to ensure there where no syntax errors in my code.
 
-![HTML validation screenshot](documentation/w3c .html.validator.png)
+![HTML validation screenshot](documentation/htmlValidator.png)
 
 ![CSS validation screenshot](documentation/css.validation.png)
 
@@ -139,3 +141,16 @@ The live link can be found here - <https://arnoldkoss.github.io/rock-paper-sciss
 - I unzipped the file and tested each link page to make sure it opened correctly on my browser.
 
 ![Local deployment screenshot](documentation/localDployment.png)
+
+
+## Credits
+
+- Code used
+  - Drawing inspiration from browsing the internet, I discovered an effective method for implementing a timer within the display result function.
+- Content 
+  - The icons in the game were taken from Flaticon.
+
+
+## Acknowledgments    
+
+I want to thank my mentors Rory and Luke for his great guidance and support and to the slack colleagues for the help I got.
