@@ -4,12 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
     // Function to attach click event listener to each button
+   
+    
     function buttonLoop(button) {
         button.addEventListener("click", function () {
             let playerChoice = this.getAttribute("data-choice");
             runGame(playerChoice);
         });
     }
+    
     // Loop through each button and attach the click event listener
     for (let button of buttons) {
         buttonLoop(button);

@@ -69,7 +69,10 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
   -  Keep track of your progress with the real-time score tracking feature. 
 - Clear Game Results
   - Receive instant feedback with clear and concise game results. Know whether you've won, lost, or tied with the computer at the end of each round, keeping the excitement alive throughout the game.
+   - Feedback on the score
   ![score screenshot](documentation/trackOfScore.png)  
+   - Feedback on the end result
+  ![winner acreenshot](documentation/endGame.png)
 
 - User-Friendly Interface with Intuitive Buttons
   -  The game features a user-friendly interface with intuitive buttons for selecting your moves. Simply click on the 'Rock', 'Paper', or 'Scissors' button to make your choice.
@@ -87,13 +90,19 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- Python
+  - Used python 3 via terminal to preview my site using a local http server.
+- GitHub
+  - Used for storage of my site and for publishing online.
+- Codeanywhere
+  - The IDE used for editing my site and pushing changes.
+- Google Chrome - The website was built and tested in google Chrome.
 
 ## Frameworks, Libraries & Programs Used
 
 - Google Fonts
   - Google Fonts was used to import the 'Montserrat', font into the style.css file which is used throughout the project.
-- GitHub
-  - GitHub is used to store the projects code.
+
 - Wireframe.cc
   - Wireframe.cc was used to create the wireframes.
 - Flaticon
@@ -103,10 +112,13 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 
 I used the W3C Markup Validator, W3C CSS Validator and the JSHint to ensure there where no syntax errors in my code.
 
+W3C Markup Validator
 ![HTML validation screenshot](documentation/htmlValidator.png)
 
+W3C CSS Validator
 ![CSS validation screenshot](documentation/css.validation.png)
 
+JSHint
 ![JsHint validator screenshot](documentation/JShint.png)
 
 I Used Lighthouse to check my app's speed, best practices and accessibility
