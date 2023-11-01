@@ -3,7 +3,9 @@
 This Rock Paper Scissors game is a classic hand game brought to life in a digital format. The game allows users to play against a computer, testing their luck and strategy in an interactive way. With a simple and intuitive interface, players can enjoy the timeless fun of Rock Paper Scissors directly from their web browser.
 
 ![responsive image](documentation/responsive.png)
+
 ## Contents
+
 - [Rock Paper Scissors Game](#rock-paper-scissors-game)
 - [Contents](#contents)
 - [User Storyes](#user-storyes)
@@ -66,24 +68,24 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 - Responsive on all device sizes
 - Accesible
 - Real-Time Score Tracking
-  -  Keep track of your progress with the real-time score tracking feature. 
+  - Keep track of your progress with the real-time score tracking feature.
 - Clear Game Results
+
   - Receive instant feedback with clear and concise game results. Know whether you've won, lost, or tied with the computer at the end of each round, keeping the excitement alive throughout the game.
-   - Feedback on the score
-  ![score screenshot](documentation/trackOfScore.png)  
-   - Feedback on the end result
-  ![winner acreenshot](documentation/endGame.png)
+  - Feedback on the score
+    ![score screenshot](documentation/trackOfScore.png)
+  - Feedback on the end result
+    ![winner acreenshot](documentation/endGame.png)
 
 - User-Friendly Interface with Intuitive Buttons
-  -  The game features a user-friendly interface with intuitive buttons for selecting your moves. Simply click on the 'Rock', 'Paper', or 'Scissors' button to make your choice.
-  ![buttons screenshot](documentation/buttons.png) 
+  - The game features a user-friendly interface with intuitive buttons for selecting your moves. Simply click on the 'Rock', 'Paper', or 'Scissors' button to make your choice.
+    ![buttons screenshot](documentation/buttons.png)
 
 ## Future Features
 
--  As for future features i would like to add are the following:
-   -  Add sound for when a game is ran.
-   - A popup instructions modal. 
-
+- As for future features i would like to add are the following:
+  - Add sound for when a game is ran.
+  - A popup instructions modal.
 
 ## Technologies Used
 
@@ -101,6 +103,7 @@ The images used in this project were sourced from [Flaticon](https://www.flatico
 ## Frameworks, Libraries & Programs Used
 
 - Google Fonts
+
   - Google Fonts was used to import the 'Montserrat', font into the style.css file which is used throughout the project.
 
 - Wireframe.cc
@@ -162,15 +165,13 @@ The live link can be found here - <https://arnoldkoss.github.io/rock-paper-sciss
 
 ![Local deployment screenshot](documentation/localDployment.png)
 
-
 ## Credits
 
 - Code used
   - Drawing inspiration from browsing the internet, I discovered an effective method for implementing a timer within the display result function.
-- Content 
+- Content
   - The icons in the game were taken from Flaticon.
 
-
-## Acknowledgments    
+## Acknowledgments
 
 I want to thank my mentors Rory and Luke for his great guidance and support and to the slack colleagues for the help I got.

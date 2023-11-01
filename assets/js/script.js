@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
     // Function to attach click event listener to each button
-   
-    
+
+
     function buttonLoop(button) {
         button.addEventListener("click", function () {
             let playerChoice = this.getAttribute("data-choice");
             runGame(playerChoice);
         });
     }
-    
+
     // Loop through each button and attach the click event listener
     for (let button of buttons) {
         buttonLoop(button);
@@ -41,14 +41,14 @@ function runGame(playerChoice) {
         .querySelector(".computer-choice img")
         .setAttribute("src", `assets/images/${computerChoice}.png`);
 
-    
+
     checkAnswer(playerChoice, computerChoice);
 }
 
 // Function to check the winner
 function checkAnswer(playerChoice, computerChoice) {
     let result;
-    
+
     if (playerChoice === computerChoice) {
         result = "It's a tie!";
         setTimeout(() => {
@@ -73,7 +73,7 @@ function checkAnswer(playerChoice, computerChoice) {
 let playerScore = 0;
 let computerScore = 0;
 // Winning score here
-const winningScore = 5; 
+const winningScore = 5;
 
 // Function to increment the player's score
 function incrementPlayerScore() {
@@ -97,7 +97,7 @@ function incrementComputerScore() {
 function updateScoreColor() {
     const playerScoreElement = document.getElementById("player-score");
     const computerScoreElement = document.getElementById("computer-score");
-    
+
     if (playerScore > computerScore) {
         playerScoreElement.style.color = "green";
         computerScoreElement.style.color = "red";
@@ -133,7 +133,7 @@ function removeWinnerText() {
 function displayResult(result) {
     const resultElement = document.getElementById("final-result");
     resultElement.textContent = result;
-// Inspired to implement while browsing the internet
+    // Inspired to implement while browsing the internet
     setTimeout(() => {
         resultElement.textContent = "";
     }, 4000);
@@ -143,10 +143,10 @@ function displayResult(result) {
 
 // Function to reset the game
 function resetGame() {
-    
+
     playerScore = 0;
     computerScore = 0;
-    
+
     document.getElementById("player-score").textContent = "Player Score: 0";
     document.getElementById("computer-score").textContent = "Computer Score: 0";
 
